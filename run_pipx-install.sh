@@ -2,8 +2,11 @@
 
 PYTHON_VER=3.10
 
+pythonVer=$('python3 --version' 2>&1)
+echo ${pythonVer}
+
 # Ensure shell exists on an error
-set -e
+#set -e
 
 # Ensure python-venv is installed
 sudo apt update
