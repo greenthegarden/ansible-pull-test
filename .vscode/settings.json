@@ -1,0 +1,32 @@
+{
+    "editor.inlayHints.enabled": "off",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.minimap.autohide": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.scale": 2,
+    "editor.minimap.enabled": false,
+    "editor.minimap.size": "fill",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.tree.indent": 20,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.rulers": [88, 120],
+    "window.zoomLevel": 0,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+            "source.fixAll": true,
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "python.linting.lintOnSave": true,
+        "python.linting.enabled": true,
+    }
+}

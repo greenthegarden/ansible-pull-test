@@ -1,0 +1,13 @@
+---
+
+- hosts: localhost
+  become: true
+  pre_tasks:
+    - name: update repositories
+      ansible.builtin.apt:
+        update_cache: yes
+      changed_when: False
+ 
+  tasks:
+
+- import_playbook: playbook.yaml
